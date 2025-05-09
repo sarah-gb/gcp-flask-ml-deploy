@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    print("I am inside hello world")
+    print("I am inside hello world - CD")
     return 'Hello World! CD - Test auto deploy'
 
 @app.route('/echo/<name>')
